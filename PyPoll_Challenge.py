@@ -80,7 +80,7 @@ with open(file_to_load) as election_data:
 # Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
 
-    # Print the final vote count (to terminal)
+    # Print the final vote count
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
