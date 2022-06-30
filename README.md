@@ -1,8 +1,8 @@
 # Election Analysis
-The Colorado Board of Elections requires an election audit for a U.S. Congressional Precinct election.
+The Colorado Board of Elections requires an election audit for a U.S. Congressional District election.
 
 ## Overview of Election Audit
-An election audit is required by the Colorado Board of Elections to certify an election. There was an initial request for a limited audit of a Colorado U.S. Congressional Precinct election, but requirements changed, and a more detailed audit was needed.
+An election audit is required by the Colorado Board of Elections to certify an election. There was an initial request for a limited audit of a Colorado U.S. Congressional District election, but requirements changed, and a more detailed audit was needed.
 
 ### Election Results Received
 The election results from three different voting methods (mail-in ballots, punch cards, and direct recording electronic counting machines) were combined and provided here in a tabulated CSV file. A single vote is represented by a record (row) consisting of a Ballot ID, the County in which the vote was cast, and the candidate chosen. 
@@ -43,7 +43,7 @@ Winning Percentage: 73.8%
 - **Winner of the Election:** Candidate Diana DeGette won the election in a landslide with 272,892 votes, which was 73.8% of the vote total.
 
 ### Additional Election Audit Requirements and Results
-- **Total Votes and Percentage of Total Votes for Each County in the Precinct:** This Precinct has only three counties. There were 38,855 Jefferson County voters, which was 10.5% of the total vote. There were 306,055 Denver County voters, which was 82.8% of the total vote. There were 24,801 Arapahoe County voters, which was 6.7% of the total vote.
+- **Total Votes and Percentage of Total Votes for Each County in the District:** This District has only three counties. There were 38,855 Jefferson County voters, which was 10.5% of the total vote. There were 306,055 Denver County voters, which was 82.8% of the total vote. There were 24,801 Arapahoe County voters, which was 6.7% of the total vote.
 - **County with the Highest Turnout:** Denver County had the highest voter turnout of any county by far with 306,055 votes cast.
 
 
