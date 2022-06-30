@@ -8,7 +8,7 @@ An election audit is required by the Colorado Board of Elections to certify an e
 The election results from three different voting methods (mail-in ballots, punch cards, and direct recording electronic counting machines) were combined and provided here in a tabulated CSV file. A single vote is represented by a record (row) consisting of a Ballot ID, the County in which the vote was cast, and the candidate chosen. 
 
 ### A Better Way: From Excel to Python
-Previous election audits were performed using Excel, which requires cumbersome manual steps. The automated election audit provided here is performed using Python, which is faster, less prone to human error, and more flexible. If this automated election audit proves to be successful, it can be used to certify other Congressional, Senatorial, and Local District elections.
+Previous election audits were performed using Excel, which requires cumbersome manual steps. The automated election audit provided here is performed using Python, which is faster, less prone to human error, and more flexible. If this automated election audit proves to be successful, it can be used to certify other Congressional, Senatorial, State, and Local elections.
 
 ## Election Audit Results
 The election audit has specific formatting guidelines. The correctly formatted audit is provided here:
@@ -48,7 +48,7 @@ Winning Percentage: 73.8%
 
 
 ## Election Audit Summary
-Using Python, this automated election audit was completed faster and with less human error than previous audits using Excel. However, the real power of this new Python programmatic approach is its flexibility in easily being able to handle other U.S. Congressional, U.S. Senatorial, and even State and Local District elections. Here are examples of how the Python script can be changed to accomodate different elections.
+Using Python, this automated election audit was completed faster and with less human error than previous audits using Excel. However, the real power of this new Python programmatic approach is its flexibility in easily being able to handle other U.S. Congressional, U.S. Senatorial, and even State and Local elections. Here are examples of how the Python script can be changed to accomodate different elections.
 
 ### Change the Election Audit Title to Accomodate Different Election Years and Different Election Types
 Colorado is divided into 7 U.S. Congressional Districts (and set to gain an additional district at the 2022 mid-terms). Currently the election audit is generic:
@@ -76,6 +76,12 @@ What about a U.S. Senatorial election?
 
 ```
     election_type = "U.S. Senatorial"
+```
+
+Or a State Senatorial election?
+
+```
+    election_type = "State Senatorial"
 ```
 
 The rest of the script stays the same. The election audit still provides the same county and candidate summary statistics.
